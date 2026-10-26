@@ -2,6 +2,8 @@
 
 Wettbewerbsbeitrag des Löschzugs Grünberg-Mitte: Zwei Wehren – ein Standort.
 
+[Website öffnen](https://herrhahn.github.io/feuerwehr-der-zukunft-2026/) · [GitHub-Projekt](https://github.com/HerrHahn/feuerwehr-der-zukunft-2026)
+
 Die Website erzählt das Zusammenwachsen von Lehnheim und Stangenrod, den Neubau des gemeinsamen Feuerwehrhauses und das Festwochenende vom 21. bis 23. August 2026. Sie enthält Fotogalerien, die verlinkte Videochronik und den Bauzeitraffer, belegte Zitate von Stephan Hahn sowie aggregierte Daten aus den Lehnheimer Jahresberichten.
 
 ## Datenstand
