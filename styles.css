@@ -28,3 +28,25 @@ dialog{border:0;padding:0;max-width:none;max-height:none}dialog::backdrop{backgr
 @media(max-width:800px){.feedback-invite{grid-template-columns:1fr;gap:30px}.feedback-invite h2{font-size:32px}.feedback-buttons{max-width:520px}}
 @media(max-width:540px){.feedback-section{padding:42px 0}.feedback-buttons .button{padding-inline:12px;font-size:12px;gap:16px}}
 @media print{.feedback-section{display:none!important}}
+
+/* Rückmeldeformular */
+#feedback-dialog{width:min(620px,calc(100% - 32px));max-height:calc(100dvh - 32px);border:0;padding:32px;overflow-y:auto;color:var(--ink);background:white}
+#feedback-dialog::backdrop{background:rgba(12,14,17,.72)}
+#feedback-dialog .dialog-header{gap:16px;margin-bottom:20px}
+#feedback-dialog h2{font-size:30px;line-height:1.12}
+#feedback-dialog .eyebrow{color:var(--red);margin-bottom:12px}
+#feedback-dialog .icon-button{flex-shrink:0}
+#feedback-intro{font-size:15px;color:var(--muted);line-height:1.6;margin-bottom:24px}
+#feedback-form label{display:block;font-weight:700;font-size:14px;margin:18px 0 8px}
+#feedback-form input,#feedback-form textarea{display:block;width:100%;font:inherit;font-size:16px;line-height:1.5;padding:12px;border:1px solid #afb2b5;border-radius:2px;color:var(--ink);background:white}
+#feedback-form textarea{resize:vertical;min-height:140px}
+#feedback-form input:focus,#feedback-form textarea:focus{outline:2px solid var(--red);outline-offset:2px}
+#feedback-form input:read-only,#feedback-form textarea:read-only{background:var(--paper)}
+#feedback-form .feedback-privacy{font-size:12px;line-height:1.6;color:var(--muted);margin:16px 0}
+.feedback-honeypot{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}
+.feedback-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:24px}
+.feedback-actions .button{padding:14px 18px;font-size:13px}
+#feedback-submit:disabled{opacity:.65;cursor:wait}
+#feedback-status.feedback-success{border-color:#27764c;background:#edf7f0;color:#205237}
+@media(max-width:540px){#feedback-dialog{padding:24px 20px}#feedback-dialog h2{font-size:25px}.feedback-actions{gap:8px}.feedback-actions .button{padding:14px 12px;flex:1;justify-content:center}}
+@media print{#feedback-dialog{display:none!important}}

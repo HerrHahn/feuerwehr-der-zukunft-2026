@@ -33,15 +33,15 @@ Für eine lokale Vorschau kann ein beliebiger statischer Webserver in diesem Ord
 
 ## Verbesserungsvorschläge
 
-Am Seitenende öffnet „Verbesserungsvorschlag einreichen“ ein GitHub-Formular mit Pflichtfeldern für Name und Vorschlag. Dafür ist ein GitHub-Konto nötig. Die Angaben sind öffentlich; darauf weisen Website und Formular vor dem Absenden hin.
+Am Seitenende öffnet „Verbesserungsvorschlag einreichen“ ein Formular direkt auf der Website. Name und Vorschlag werden ohne Benutzerkonto zentral in einer Datenbank gespeichert. Erst nach bestätigter Speicherung erscheint die Erfolgsmeldung; bei Fehlern bleibt die Eingabe erhalten. Wiederholte Übertragungen derselben Einreichung erzeugen keinen zweiten Eintrag.
 
-„Sammlung als Textdatei herunterladen“ holt beim Anklicken den aktuellen Stand direkt von GitHub und erzeugt im Browser eine UTF-8-Textdatei. Sie enthält Namen, Vorschläge, Zeitstempel, Status und Quellenlinks. Offene und geschlossene Vorschläge werden berücksichtigt, spätere Kommentare nicht. Der Download benötigt kein GitHub-Konto. GitHub kann bei zu vielen Abrufen vorübergehend weitere Anfragen begrenzen; ein fehlgeschlagener Abruf erzeugt keine unvollständige Datei.
+„Sammlung als Textdatei herunterladen“ liefert jederzeit alle gespeicherten Rückmeldungen mit Namen und Datum als UTF-8-Textdatei. Namen und Vorschläge sind darin öffentlich sichtbar; darauf weist das Formular vor dem Absenden hin.
 
-Die Vorschläge liegen zentral als GitHub-Issues vor; die Textdatei wird bei jedem Download neu zusammengestellt. Es gibt keine KI-Auswertung, keinen KI-Dienst und keinen regelmäßigen Agentenlauf. Die Daten werden weder an einen KI-Dienst noch an einen zusätzlichen Formularanbieter gesendet.
+Die Website liegt weiterhin auf GitHub Pages. Die Speicherung und der TXT-Export laufen über einen eigenen Formularserver bei Sites/Cloudflare mit dauerhafter D1-Datenbank. Es gibt keine KI-Auswertung, keinen Agentenlauf und keine Übermittlung der Vorschläge als KI-Kontext. Tests verwenden ausschließlich erfundene Angaben.
 
-- `.github/ISSUE_TEMPLATE/verbesserungsvorschlag.yml`: öffentliches Eingabeformular. Die Feldbezeichnungen „Dein Name“ und „Dein Verbesserungsvorschlag“ gehören zum Exportformat.
-- `feedback.js`: Download-Bedienung und Rückmeldungen bei Erfolg oder Fehlern.
-- `feedback-export.mjs`: Abruf aller Seiten und Erstellung der Textsammlung.
-- `tests/feedback-export.test.mjs`: Export-, Format- und Fehlerprüfungen mit ausschließlich erfundenen Testdaten; ausführbar mit `node --test tests/feedback-export.test.mjs`.
+- `feedback.js`: Formular, Übertragung und Erfolg-/Fehlerrückmeldung.
+- Formularserver: https://feuerwehr-zukunft-rueckmeldungen.dregen667.chatgpt.site
+- Quellcode des Formularservers: im Projektordner `Feuerwehr der Zukunft/Rueckmeldungen-Server`.
+- Betriebsprüfung ohne Rückmeldungsinhalte: `/api/health`.
 
-Echte Rückmeldungen dürfen ohne ausdrückliche Freigabe nicht als Kontext an eine KI übermittelt werden. Für spätere Änderungen an der Website können daraus separat freigegebene Aufgaben erstellt werden.
+Für die Umsetzung späterer Rückmeldungen separat freigegebene Aufgaben verwenden.
