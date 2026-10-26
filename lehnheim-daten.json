@@ -1,0 +1,438 @@
+{
+  "title": "Lehnheim 2022–2025: aggregierte Daten aus Jahresberichten",
+  "scope": "Nur Lehnheim; keine vollständige Gegenüberstellung der Neugründung",
+  "years": [
+    {
+      "year": 2022,
+      "organization": "Lehnheim",
+      "period": "Kalenderjahr",
+      "active_start": 24,
+      "active_end": 25,
+      "average_age_end": 36,
+      "women_end": null,
+      "men_end": null,
+      "entries_reported": 3,
+      "exits_reported": 2,
+      "youth_transfers_reported": null,
+      "training_events": 21,
+      "average_training_participants_reported": 13,
+      "minimum_training_participants_reported": null,
+      "maximum_training_participants_reported": null,
+      "respirator_wearers_reported": 10,
+      "respirator_status_green_reported": 10,
+      "respirator_reference_date": "2022-12-31",
+      "alarm_incidents_reported": 7,
+      "event_security_services_reported": 2,
+      "course_and_seminar_places_reported": 24,
+      "course_and_seminar_places_hlfs_reported": 1,
+      "incident_hours": null,
+      "training_hours": null,
+      "daytime_response_staff": null,
+      "total_qualified_drivers": null,
+      "total_qualified_machine_operators": null,
+      "total_group_leaders": null,
+      "total_platoon_leaders": null,
+      "youth_members_start": null,
+      "youth_members_end": null,
+      "youth_events_including_excursions": null,
+      "sources": {
+        "personnel": "LH22-P",
+        "training": "LH22-A",
+        "incidents": "LH22-E",
+        "courses": "LH22-L",
+        "youth": null
+      }
+    },
+    {
+      "year": 2023,
+      "organization": "Lehnheim",
+      "period": "Kalenderjahr",
+      "active_start": 25,
+      "active_end": 25,
+      "average_age_end": 36,
+      "women_end": 5,
+      "men_end": 20,
+      "entries_reported": 1,
+      "exits_reported": 1,
+      "youth_transfers_reported": null,
+      "training_events": 20,
+      "average_training_participants_reported": 11,
+      "minimum_training_participants_reported": null,
+      "maximum_training_participants_reported": null,
+      "respirator_wearers_reported": 13,
+      "respirator_status_green_reported": 11,
+      "respirator_reference_date": "2023-12-31",
+      "alarm_incidents_reported": 13,
+      "event_security_services_reported": 2,
+      "course_and_seminar_places_reported": 47,
+      "course_and_seminar_places_hlfs_reported": null,
+      "incident_hours": null,
+      "training_hours": null,
+      "daytime_response_staff": null,
+      "total_qualified_drivers": null,
+      "total_qualified_machine_operators": null,
+      "total_group_leaders": null,
+      "total_platoon_leaders": null,
+      "youth_members_start": 5,
+      "youth_members_end": 9,
+      "youth_events_including_excursions": 30,
+      "sources": {
+        "personnel": "LH23-P",
+        "training": "LH23-A",
+        "incidents": "LH23-E",
+        "courses": "LH23-L",
+        "youth": "LH23-J"
+      }
+    },
+    {
+      "year": 2024,
+      "organization": "Lehnheim",
+      "period": "Kalenderjahr",
+      "active_start": 25,
+      "active_end": 24,
+      "average_age_end": 38,
+      "women_end": 5,
+      "men_end": 19,
+      "entries_reported": null,
+      "exits_reported": 1,
+      "youth_transfers_reported": null,
+      "training_events": 20,
+      "average_training_participants_reported": 11,
+      "minimum_training_participants_reported": 9,
+      "maximum_training_participants_reported": 19,
+      "respirator_wearers_reported": 11,
+      "respirator_status_green_reported": 11,
+      "respirator_reference_date": null,
+      "alarm_incidents_reported": 11,
+      "event_security_services_reported": 4,
+      "course_and_seminar_places_reported": 33,
+      "course_and_seminar_places_hlfs_reported": 5,
+      "incident_hours": null,
+      "training_hours": null,
+      "daytime_response_staff": null,
+      "total_qualified_drivers": null,
+      "total_qualified_machine_operators": null,
+      "total_group_leaders": null,
+      "total_platoon_leaders": null,
+      "youth_members_start": null,
+      "youth_members_end": null,
+      "youth_events_including_excursions": null,
+      "sources": {
+        "personnel": "LH24-P",
+        "training": "LH24-A",
+        "incidents": "LH24-E",
+        "courses": "LH24-L",
+        "youth": null
+      }
+    },
+    {
+      "year": 2025,
+      "organization": "Lehnheim",
+      "period": "Kalenderjahr",
+      "active_start": 24,
+      "active_end": 26,
+      "average_age_end": 36,
+      "women_end": 5,
+      "men_end": 21,
+      "entries_reported": 3,
+      "exits_reported": 1,
+      "youth_transfers_reported": 1,
+      "training_events": 21,
+      "average_training_participants_reported": 12,
+      "minimum_training_participants_reported": 8,
+      "maximum_training_participants_reported": 18,
+      "respirator_wearers_reported": 13,
+      "respirator_status_green_reported": 11,
+      "respirator_reference_date": null,
+      "alarm_incidents_reported": 9,
+      "event_security_services_reported": 3,
+      "course_and_seminar_places_reported": 37,
+      "course_and_seminar_places_hlfs_reported": 9,
+      "incident_hours": null,
+      "training_hours": null,
+      "daytime_response_staff": null,
+      "total_qualified_drivers": null,
+      "total_qualified_machine_operators": null,
+      "total_group_leaders": null,
+      "total_platoon_leaders": null,
+      "youth_members_start": null,
+      "youth_members_end": null,
+      "youth_events_including_excursions": null,
+      "sources": {
+        "personnel": "LH25-P",
+        "training": "LH25-A",
+        "incidents": "LH25-E",
+        "courses": "LH25-L",
+        "youth": null
+      }
+    }
+  ],
+  "definitions": {
+    "active_end": "Personalstärke der Einsatzabteilung zum Ende des jeweiligen Kalenderjahres laut Personalbericht; Ehren-/Altersabteilung nicht enthalten.",
+    "training_events": "Im Ausbildungsbericht genannte reguläre Standortausbildungen; zusätzliche Sonderausbildungen nicht eingerechnet.",
+    "average_training_participants_reported": "Gerundeter, unverändert übernommener berichteter Durchschnitt; Bezugsgruppe vor Zusammenführung bestätigen.",
+    "alarm_incidents_reported": "Als alarmierte Einsätze angegebene Jahreszahl; Absicherungen getrennt.",
+    "course_and_seminar_places_reported": "Mehrfachteilnahmen von Personen möglich; keine Zahl unterschiedlicher Teilnehmender und kein Qualifikationsbestand.",
+    "null": "Nicht belegt oder noch nicht geliefert; niemals als 0 darstellen.",
+    "docx_paragraphs": "1-basierte Absätze direkt im OOXML-Dokumentkörper, einschließlich leerer Absätze; keine verlässlichen Seitenzahlen verfügbar."
+  },
+  "sources": {
+    "LH22-P": {
+      "relative_file": "2022/5 Personelles.docx",
+      "page": null,
+      "paragraphs": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_evidence": [
+        "Gestartet sind wir in das Jahr 2022 mit einer Personalstärke von 24.",
+        "So dass wir das Jahr 2022 mit einer Personalstärke von 25 und einem Altersdurchschnitt von 36 Jahren beenden konnten.",
+        "2 Neuzugänge verbucht werden.",
+        "der seit Juli mit dabei ist.",
+        "aufgrund längerer Inaktivität",
+        "nach Rücksprache mit den beiden"
+      ]
+    },
+    "LH22-A": {
+      "relative_file": "2022/2 Ausbildung.docx",
+      "page": null,
+      "paragraphs": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_evidence": [
+        "Im vergangenen Jahr 2022 übten wir erstmals komplett zusammen mit den Kameraden aus Stangenrod als „Löschzug Grünberg Mitte“.",
+        "Die Insgesamt 21 Ausbildungen fanden im 2-wöchigen Rhythmus statt, mittwochs bei uns und freitags in Stangenrod.",
+        "Nachdem Pandemie bedingt die ersten Ausbildungen noch via Zoom stattfinden mussten konnte ab April dann die praktische Präsenz Ausbildung losgehen.",
+        "Die Übungsbeteiligung bezogen auf die 21 Ausbildungen am Standort lag im Durschnitt bei 13 Kammeraden.",
+        "Stand 31. Dezember 2022 alle 10 aktiven Atemschutzgeräteträger auf Status Grün sind"
+      ]
+    },
+    "LH22-E": {
+      "relative_file": "2022/3 Einsätze.docx",
+      "page": null,
+      "paragraphs": [
+        2
+      ],
+      "text_evidence": [
+        "Im Jahr 2022 wurden wir zu 7 Einsätzen alarmiert, weiterhin wurden 2 Absicherungen für Veranstaltungen durchgeführt"
+      ]
+    },
+    "LH22-L": {
+      "relative_file": "2022/4 Lehrgänge.docx",
+      "page": null,
+      "paragraphs": [
+        14
+      ],
+      "text_evidence": [
+        "Somit belegten wir 2022 zusammengefasst 15 Seminar bzw. Ausbildungsplätze sowie 9 Lehrgangsplätze, davon einer an der HLFS in Kassel."
+      ]
+    },
+    "LH23-P": {
+      "relative_file": "2023/5 Personelles.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Gestartet sind wir in das Jahr 2023 mit einer Personalstärke von 25.",
+        "So dass wir das Jahr 2023 so wie wir auch gestartet sind mit einer Personalstärke von 25 aktiven Mitgliedern beenden konnten.",
+        "Diese 25 Mitglieder teilen sich auf in 5 Frauen und 20 Männern. Der Gesamt Altersdurchschnitt liegt bei 36 Jahren",
+        "eine neue Kameradin in unseren Reihen begrüßen.",
+        "aufgrund seines Umzuges"
+      ]
+    },
+    "LH23-A": {
+      "relative_file": "2023/2 Ausbildung.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Die Insgesamt 20 Standortausbildungen fanden nach dem im Jahr 2022 bewährten Prinzip im 2-wöchigen Rhythmus, mittwochs und freitags statt.",
+        "Die Übungsbeteiligung bezogen auf die 20 Ausbildungen lag im Durschnitt bei 11 Kammeraden.",
+        "Stand 31. Dezember 2023 von 13 aktiven Geräteträgern 11 ihr soll erfüllt haben und somit auf Status Grün sind"
+      ]
+    },
+    "LH23-E": {
+      "relative_file": "2023/3 Einsätze.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Im Jahr 2023 wurden wir zu 13 Einsätzen alarmiert, weiterhin wurden 2 Absicherungen für Veranstaltungen durchgeführt"
+      ]
+    },
+    "LH23-L": {
+      "relative_file": "2023/4 Lehrgänge.pdf",
+      "page": 2,
+      "paragraphs": null,
+      "text_evidence": [
+        "Somit wurden von uns im Jahr 2023 zusammengefasst 47 Lehrgänge und Seminare absolviert!!!",
+        "Zum Vergleich: 2022 waren es insgesamt 24."
+      ]
+    },
+    "LH24-P": {
+      "relative_file": "2024/5 Personelles.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Gestartet sind wir in das Jahr 2024 mit einer Personalstärke von 25.",
+        "Da wir einen Austritt aus der Einsatzabteilung zu verzeichnen haben beenden wir das Jahr mit 24 Aktiven Einsatzkräften.",
+        "Diese 24 Mitglieder teilen sich auf in 5 Frauen und 19 Männern.",
+        "Der Gesamt Altersdurchschnitt liegt zum Jahresende bei 38 Jahren"
+      ]
+    },
+    "LH24-A": {
+      "relative_file": "2024/2 Ausbildung.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Die insgesamt 20 Ausbildungen fanden nach dem mittlerweile bewährten Prinzip im 2-wöchigen Rhythmus, mittwochs und freitags statt.",
+        "Die Übungsbeteiligung bezogen auf die 20 Ausbildungen lag im Durschnitt bei 11 Kammeraden.",
+        "Der höchste Übungsbesuch lag bei 19 und der niedrigste bei 9 Kameraden.",
+        "stand Heute alle 11 aktiven Geräteträgern ihr soll erfüllt haben und somit auf Status Grün sind"
+      ]
+    },
+    "LH24-E": {
+      "relative_file": "2024/3 Einsätze.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Im Jahr 2024 wurde die Einsatzabteilung zu 11 Einsätzen alarmiert, weiterhin wurden 4 Absicherungen für Veranstaltungen durchgeführt"
+      ]
+    },
+    "LH24-L": {
+      "relative_file": "2024/4 Lehrgänge.pdf",
+      "page": 2,
+      "paragraphs": null,
+      "text_evidence": [
+        "Somit wurden von uns im Jahr 2024 insgesamt 33 Lehrgänge und Seminare belegt, 5 davon an der Hessischen Landesfeuerwehrschule."
+      ]
+    },
+    "LH25-P": {
+      "relative_file": "2025/5 Personelles.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Gestartet sind wir in das Jahr 2025 mit einer Personalstärke von 24 Kameradinnen und Kameraden.",
+        "zwei neue Kameraden bei uns begrüßen.",
+        "von der Jugendfeuerwehr in die Einsatzabteilung.",
+        "wechselte in die Ehren- und Altersabteilung, so dass wir das Jahr mit einer Personalstärke von 26 beenden konnten.",
+        "Diese 26 Mitglieder teilen sich auf in 5 Frauen und 21 Männern.",
+        "Der Gesamt Altersdurchschnitt liegt zum Jahresende bei 36 Jahren"
+      ]
+    },
+    "LH25-A": {
+      "relative_file": "2025/2 Ausbildung.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Die insgesamt 21 Ausbildungen fanden im 2-wöchigen Rhythmus, mittwochs und freitags statt.",
+        "Die Übungsbeteiligung bezogen auf die 21 Ausbildungen lag im Durschnitt bei 12 Kammeraden.",
+        "Der höchste Übungsbesuch lag bei 18 und der niedrigste bei 8 Kameraden.",
+        "unsere 13 Atemschutzgeräteträger",
+        "so das 11 von ihnen ihr soll erfüllt haben und somit auf Status Grün sind"
+      ]
+    },
+    "LH25-E": {
+      "relative_file": "2025/3 Einsätze.pdf",
+      "page": 1,
+      "paragraphs": null,
+      "text_evidence": [
+        "Im Jahr 2025 wurde die Einsatzabteilung zu 9 Einsätzen alarmiert, weiterhin wurden 3 Absicherungen für Veranstaltungen durchgeführt unter anderem eine Einsatzbereitschaft am Gallusmarkt, wo es zu weiteren Einsatzlagen kam.",
+        "bei 3 medizinischen Notfällen im Zelt- und Marktbereich sowie bei einem Verkehrsunfall"
+      ]
+    },
+    "LH25-L": {
+      "relative_file": "2025/4 Lehrgänge.pdf",
+      "page": 2,
+      "paragraphs": null,
+      "text_evidence": [
+        "Somit wurden von uns im Jahr 2025 insgesamt 37 Lehrgänge und Seminare belegt, 9 davon an der Hessischen Landesfeuerwehrschule in Kassel."
+      ]
+    },
+    "LH23-J": {
+      "relative_file": "2023/2023_24 Jahresbericht der Jugendfeuerwehr.docx",
+      "page": null,
+      "paragraphs": [
+        4,
+        6
+      ],
+      "text_evidence": [
+        "Das Jahr 2023 war sehr ereignisreich. Insgesamt trafen wir uns zu 30 Terminen. Darunter fallen Übungen und Ausflüge.",
+        "Zu Beginn des Jahres, bestand unsere Jugendfeuerwehr aus 5 Jugendlichen, diese Zahl wuchs im laufe des Jahres auf 9 Jugendliche an.",
+        "Deswegen freuen wir uns besonders ins Jahr 2024 mit 9 Jugendlichen zu starten.",
+        "Auch in diesem Jahr fanden alle Übungen gemeinsam mit der Jugendfeuerwehr Stangenrod statt."
+      ]
+    }
+  },
+  "limitations": [
+    "Die Daten beschreiben nur Lehnheim. Stangenrod und der Löschzug Mitte Stand Oktober 2026 fehlen; kein Gesamtwert und kein Fusionseffekt daraus ableitbar.",
+    "Die vier Berichtsjahre 2022–2025 liegen bereits in der Phase gemeinsamer Ausbildung. Eine echte Ausgangsreihe vor Beginn der Zusammenarbeit ist nicht vorhanden.",
+    "2022 waren erste Ausbildungen pandemiebedingt online; praktische Präsenzausbildung begann erst im April. Übungen und Beteiligung sind deshalb nur eingeschränkt mit späteren Jahren vergleichbar.",
+    "Teilnehmerdurchschnitte sind gerundete Angaben aus den Lehnheimer Berichten. Die Termine wurden gemeinsam durchgeführt; die Berichte definieren nicht ausdrücklich, ob alle genannten Teilnehmerzahlen strikt auf Lehnheimer Mitglieder begrenzt sind. Vor einem gemeinsamen Vergleich diese Bezugsgruppe bestätigen.",
+    "Gemeinsame Ausbildungstermine dürfen beim späteren Zusammenführen mit Stangenrod nicht addiert werden. Lehnheimer und Stangenröder Teilnehmerdurchschnitte nur bei identischen Terminen und gleicher Zählweise zusammenführen; vorzugsweise gemeinsame Rohdaten nutzen.",
+    "Alarmierungen und Absicherungen werden in den Quellen getrennt ausgewiesen. Einsatzanzahl misst weder Einsatzstärke noch Tagesalarmsicherheit. Gemeinsame Alarmereignisse später nicht doppelt zählen.",
+    "2025 wurden während der Marktbereitschaft weitere Einsatzlagen dokumentiert: drei medizinische Notfälle und ein Verkehrsunfall. Die Jahresübersicht nennt neun Alarmierungen und drei Absicherungen; die vier zusätzlichen Tätigkeiten nicht stillschweigend in die neun Alarmierungen hineinrechnen.",
+    "Lehrgänge/Seminare bedeuten belegte Plätze bzw. Teilnahmen, nicht unterschiedliche Personen oder vorhandene Qualifikationen. Eine Person kann mehrfach enthalten sein. 2022 gliedert sich in 15 Seminar-/Ausbildungsplätze und neun Lehrgangsplätze.",
+    "Atemschutz-Status Grün ist die Formulierung der Berichte. Für 2022/23 ist der Stichtag 31. Dezember ausdrücklich genannt, 2024 lautet er stand Heute (Berichtsdatum 25. Januar 2025), 2025 ist kein genauer Status-Stichtag ausgewiesen. Nicht ungeprüft als identische Jahresend-Stichtage darstellen.",
+    "Der Jugendbericht trägt den Titel 2023/24, beschreibt aber ausdrücklich das Kalenderjahr 2023 und den Ausblick 2024. Fünf bzw. neun Mitglieder gehören zum Lehnheimer Bericht; die Übungen erfolgten gemeinsam mit Stangenrod. 30 Termine umfassen Übungen und Ausflüge, nicht nur Ausbildungen.",
+    "Fehlende Angaben sind null, nicht null Personen bzw. null Aktivitäten. Vor allem Einsatzstunden, Übungsstunden, Tagesbesetzung und Bestände von Führungs-/Fahrqualifikationen sind nicht aus den Berichten ableitbar.",
+    "Zu- und Abgänge 2022, 2023 und 2025 wurden aus den Personalabsätzen gezählt. Die anonymisierten Ausgaben enthalten keine individuellen Zuordnungen. Der Bericht 2024 benennt einen Austritt; Zugänge werden nicht ausdrücklich mit null angegeben und bleiben daher null.",
+    "Bericht 2025 nennt eine bevorstehende Gründungsversammlung am Dienstag, 4. Februar. Diese Kombination passt nicht zum Jahr 2026. Für Gründungsdatum andere belastbare Projektquellen nutzen."
+  ],
+  "placeholders": {
+    "stangenrod": {
+      "status": "Zahlen angekündigt; noch nicht vorhanden",
+      "years": [
+        {
+          "year": 2022,
+          "active_end": null,
+          "training_events": null,
+          "average_training_participants_reported": null,
+          "alarm_incidents_reported": null,
+          "course_and_seminar_places_reported": null,
+          "youth_members_end": null
+        },
+        {
+          "year": 2023,
+          "active_end": null,
+          "training_events": null,
+          "average_training_participants_reported": null,
+          "alarm_incidents_reported": null,
+          "course_and_seminar_places_reported": null,
+          "youth_members_end": null
+        },
+        {
+          "year": 2024,
+          "active_end": null,
+          "training_events": null,
+          "average_training_participants_reported": null,
+          "alarm_incidents_reported": null,
+          "course_and_seminar_places_reported": null,
+          "youth_members_end": null
+        },
+        {
+          "year": 2025,
+          "active_end": null,
+          "training_events": null,
+          "average_training_participants_reported": null,
+          "alarm_incidents_reported": null,
+          "course_and_seminar_places_reported": null,
+          "youth_members_end": null
+        }
+      ]
+    },
+    "lz_mitte_october_2026": {
+      "status": "Export angekündigt; noch nicht vorhanden",
+      "reference_period": "Oktober 2026; genauer Stichtag noch offen",
+      "reference_date": null,
+      "active_members": null,
+      "training_events_ytd": null,
+      "average_training_participants_reported": null,
+      "alarm_incidents_ytd": null,
+      "course_and_seminar_places_ytd": null,
+      "youth_members": null
+    }
+  }
+}
