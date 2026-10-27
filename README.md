@@ -27,6 +27,7 @@ Es werden ausschließlich öffentliche Aggregate verwendet. Keine Personaldateie
 - index.html, styles.css und app.js: Inhalte, Darstellung, Galerien und Präsentationsmodus.
 - statistics.js und projekt-daten.json: dieselben öffentlichen Aggregate, Quellen und Abgrenzungen.
 - lehnheim-daten.json: unter dem bisherigen Dateinamen nur noch die vier gemeinsamen historischen Kennzahlen.
+- projektdokumentation-jury-2026.pdf: elfseitige Abschlussdokumentation für die Jury, Stand 27.10.2026; Download im Einstieg und im Dokumentationsbereich.
 - leitfaden-zusammenwachsen.pdf: vier Arbeitsblätter für andere Feuerwehren.
 - leitfaden-vorlagen.txt: dieselben Inhalte als bearbeitbare Textvorlage.
 - foto-*.webp und swg-logo.svg: bereitgestellte Bilder und Logos.
