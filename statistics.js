@@ -1,80 +1,6 @@
-/* Ausschließlich öffentliche Aggregate; Quellen und Abgrenzung je Einheit. */
+/* Öffentliche Aggregate; einheitlicher historischer Vergleich. */
 window.FDZ_DATA = {
-  "updated": "2026-10-26",
-  "metrics": {
-    "active": {
-      "label": "Aktive zum Jahresende",
-      "unit": "Personen · jeweils 31. Dezember",
-      "source": "Personelles",
-      "values": [
-        25,
-        25,
-        24,
-        26
-      ],
-      "note": "Die Personalstärke Lehnheims liegt in den vier Berichtsjahren zwischen 24 und 26 Aktiven. Gezählt ist die Einsatzabteilung, nicht der Feuerwehrverein oder die Ehren- und Altersabteilung."
-    },
-    "exercises": {
-      "label": "Reguläre Ausbildungen",
-      "unit": "Termine im Kalenderjahr",
-      "source": "Ausbildung",
-      "values": [
-        21,
-        20,
-        20,
-        21
-      ],
-      "note": "Seit 2022 fanden die regulären Ausbildungen gemeinsam mit Stangenrod statt. Diese gemeinsamen Termine dürfen später nicht mit Stangenröder Terminzahlen addiert werden. 2022 begann die praktische Präsenzausbildung pandemiebedingt erst im April."
-    },
-    "attendance": {
-      "label": "Berichteter Teilnehmerdurchschnitt",
-      "unit": "Ø Personen je regulärer Ausbildung",
-      "source": "Ausbildung",
-      "values": [
-        13,
-        11,
-        11,
-        12
-      ],
-      "note": "Die gerundeten Durchschnittswerte sind unverändert aus den Lehnheimer Ausbildungsberichten übernommen. Die Berichte grenzen die Bezugsgruppe bei den gemeinsamen Übungen nicht ausdrücklich ab. Vor einer Zusammenführung mit Stangenrod muss die Zählweise bestätigt werden."
-    },
-    "alarms": {
-      "label": "Alarmierungen",
-      "unit": "Alarmierte Einsätze im Kalenderjahr",
-      "source": "Einsätze",
-      "values": [
-        7,
-        13,
-        11,
-        9
-      ],
-      "note": "Die Berichte führen Alarmierungen und Absicherungen getrennt. Einsatzanzahl ist kein Maß für die verfügbare Mannschaft oder die Tagesalarmsicherheit. Gemeinsame Alarmereignisse dürfen später nicht doppelt gezählt werden. 2025 sind zusätzliche Tätigkeiten während der Marktbereitschaft beschrieben, die nicht zu den neun Alarmierungen addiert wurden."
-    },
-    "safeguards": {
-      "label": "Absicherungen",
-      "unit": "Veranstaltungsabsicherungen im Kalenderjahr",
-      "source": "Einsätze",
-      "values": [
-        2,
-        2,
-        4,
-        3
-      ],
-      "note": "Separat in den Einsatzberichten ausgewiesene Absicherungen, zusätzlich zu den Alarmierungen. Die Jahreswerte sind keine Aussage zur Dauer oder zum Personalaufwand."
-    },
-    "courses": {
-      "label": "Lehrgangs- und Seminarbelegungen",
-      "unit": "Belegte Plätze / Teilnahmen im Kalenderjahr",
-      "source": "Lehrgänge",
-      "values": [
-        24,
-        47,
-        33,
-        37
-      ],
-      "note": "Gezählt werden belegte Lehrgangs- und Seminarplätze. Eine Person kann mehrfach teilnehmen. Die Werte beschreiben weder unterschiedliche Personen noch den Bestand einsatzfähiger Qualifikationen."
-    }
-  },
+  "updated": "2026-10-27",
   "units": {
     "lehnheim": {
       "label": "Lehnheim",
@@ -88,144 +14,63 @@ window.FDZ_DATA = {
       ],
       "metrics": {
         "active": {
-          "label": "Aktive zum Jahresende",
+          "label": "Aktive",
           "unit": "Personen · jeweils 31. Dezember",
-          "source": "Personelles",
+          "source": "Statistik der Feuerwehr Lehnheim",
           "values": [
             25,
             25,
             24,
             26
           ],
-          "note": "Die Personalstärke Lehnheims liegt in den vier Berichtsjahren zwischen 24 und 26 Aktiven. Gezählt ist die Einsatzabteilung, nicht der Feuerwehrverein oder die Ehren- und Altersabteilung."
+          "note": "Personalstand der Einsatzabteilung zum Jahresende."
         },
         "exercises": {
-          "label": "Reguläre Ausbildungen",
+          "label": "Übungen",
           "unit": "Termine im Kalenderjahr",
-          "source": "Ausbildung",
+          "source": "Statistik der Feuerwehr Lehnheim",
           "values": [
             21,
             20,
             20,
             21
           ],
-          "note": "Seit 2022 fanden die regulären Ausbildungen gemeinsam mit Stangenrod statt. Diese gemeinsamen Termine dürfen später nicht mit Stangenröder Terminzahlen addiert werden. 2022 begann die praktische Präsenzausbildung pandemiebedingt erst im April."
+          "note": "Seit 2022 gemeinsamer Übungsbetrieb. Die Statistik Lehnheim nennt 2022 21 Termine, die Statistik Stangenrod 20. Werte werden unverändert wiedergegeben und nicht addiert."
         },
         "attendance": {
-          "label": "Berichteter Teilnehmerdurchschnitt",
-          "unit": "Ø Personen je regulärer Ausbildung",
-          "source": "Ausbildung",
+          "label": "Durchschnittliche Übungsbeteiligung",
+          "unit": "Ø Personen je Übung",
+          "source": "Statistik der Feuerwehr Lehnheim",
           "values": [
             13,
             11,
             11,
             12
           ],
-          "note": "Die gerundeten Durchschnittswerte sind unverändert aus den Lehnheimer Ausbildungsberichten übernommen. Die Berichte grenzen die Bezugsgruppe bei den gemeinsamen Übungen nicht ausdrücklich ab. Vor einer Zusammenführung mit Stangenrod muss die Zählweise bestätigt werden."
+          "note": "Gerundete Werte der Statistik Lehnheim. Die Bezugsgruppe bei gemeinsamen Übungen ist dort nicht ausdrücklich abgegrenzt; keine Addition mit Stangenrod."
         },
         "alarms": {
           "label": "Alarmierungen",
-          "unit": "Alarmierte Einsätze im Kalenderjahr",
-          "source": "Einsätze",
+          "unit": "Alarmierungen im Kalenderjahr",
+          "source": "Statistik der Feuerwehr Lehnheim",
           "values": [
             7,
             13,
             11,
             9
           ],
-          "note": "Die Berichte führen Alarmierungen und Absicherungen getrennt. Einsatzanzahl ist kein Maß für die verfügbare Mannschaft oder die Tagesalarmsicherheit. Gemeinsame Alarmereignisse dürfen später nicht doppelt gezählt werden. 2025 sind zusätzliche Tätigkeiten während der Marktbereitschaft beschrieben, die nicht zu den neun Alarmierungen addiert wurden."
-        },
-        "safeguards": {
-          "label": "Absicherungen",
-          "unit": "Veranstaltungsabsicherungen im Kalenderjahr",
-          "source": "Einsätze",
-          "values": [
-            2,
-            2,
-            4,
-            3
-          ],
-          "note": "Separat in den Einsatzberichten ausgewiesene Absicherungen, zusätzlich zu den Alarmierungen. Die Jahreswerte sind keine Aussage zur Dauer oder zum Personalaufwand."
-        },
-        "courses": {
-          "label": "Lehrgangs- und Seminarbelegungen",
-          "unit": "Belegte Plätze / Teilnahmen im Kalenderjahr",
-          "source": "Lehrgänge",
-          "values": [
-            24,
-            47,
-            33,
-            37
-          ],
-          "note": "Gezählt werden belegte Lehrgangs- und Seminarplätze. Eine Person kann mehrfach teilnehmen. Die Werte beschreiben weder unterschiedliche Personen noch den Bestand einsatzfähiger Qualifikationen."
+          "note": "Alarmierungen laut Statistik Lehnheim. Veranstaltungsabsicherungen sind nicht enthalten. Für 2025 sind weitere Tätigkeiten während der Marktbereitschaft beschrieben, die nicht zu den neun Alarmierungen addiert werden."
         }
       },
-      "additional": [
-        {
-          "label": "Durchschnittsalter zum Jahresende",
-          "values": [
-            36,
-            36,
-            38,
-            36
-          ],
-          "unit": "Jahre",
-          "source": "Personelles"
-        },
-        {
-          "label": "Atemschutzgeräteträger laut Bericht",
-          "values": [
-            10,
-            13,
-            11,
-            13
-          ],
-          "source": "Ausbildung",
-          "note": "Abweichende Stichtage beachten."
-        },
-        {
-          "label": "Atemschutz: Status Grün laut Bericht",
-          "values": [
-            10,
-            11,
-            11,
-            11
-          ],
-          "source": "Ausbildung",
-          "note": "2022 und 2023 jeweils 31.12.; 2024 zum Berichtsdatum 25.01.2025; 2025 ohne ausdrücklich genannten Status-Stichtag."
-        },
-        {
-          "label": "Jugendfeuerwehr zum Jahresende",
-          "values": [
-            null,
-            9,
-            null,
-            null
-          ],
-          "source": "Jugendbericht 2023/24",
-          "note": "Bericht beschreibt das Kalenderjahr 2023. Anfang 2023: 5 Mitglieder; Ende 2023: 9. Nicht auf andere Jahre übertragen."
-        },
-        {
-          "label": "Jugendtermine einschließlich Ausflügen",
-          "values": [
-            null,
-            30,
-            null,
-            null
-          ],
-          "source": "Jugendbericht 2023/24",
-          "note": "Kalenderjahr 2023; keine reine Übungszahl."
-        }
-      ],
-      "source": "Lehnheim: Jahresberichte 2022–2025, Abschnitte Personelles, Ausbildung, Einsätze und Lehrgänge. 2022 DOCX; 2023–2025 PDF, jeweils S. 1 (Lehrgänge: S. 2). Jugend: Jahresbericht 2023/24, Berichtsjahr 2023. Fehlende Werte sind nicht null Personen, sondern nicht belegt.",
-      "note": "Die reguläre Ausbildung fand seit 2022 bereits gemeinsam statt. Die berichteten Teilnehmerdurchschnitte dürfen ohne bestätigte Bezugsgruppe nicht mit Stangenrod addiert werden."
+      "additional": [],
+      "source": "Statistik der Feuerwehr Lehnheim · 2022–2025.",
+      "note": "Gemeinsamer Übungsbetrieb seit 2022. Kennzahlen beider Ortswehren werden getrennt dargestellt und nicht addiert."
     },
     "stangenrod": {
       "label": "Stangenrod",
       "status": "complete",
-      "period": "2021–2025",
+      "period": "2022–2025",
       "years": [
-        2021,
         2022,
         2023,
         2024,
@@ -233,70 +78,66 @@ window.FDZ_DATA = {
       ],
       "metrics": {
         "active": {
-          "label": "Aktive zum Jahresende",
+          "label": "Aktive",
           "unit": "Personen · jeweils 31. Dezember",
           "values": [
-            20,
             17,
             20,
             17,
             17
           ],
-          "note": "Die Einsatzabteilung zählt Ende 2021 20, Ende 2025 17 Aktive. Vereinsmitglieder sowie Ehren- und Altersabteilung sind hier nicht enthalten.",
-          "source": "Wehrführerberichte: 2021 S. 2; 2022–2025 S. 4"
+          "note": "Personalstand der Einsatzabteilung zum Jahresende.",
+          "source": "Statistik der Feuerwehr Stangenrod"
         },
         "exercises": {
-          "label": "Reguläre Übungen",
+          "label": "Übungen",
           "unit": "Termine im Kalenderjahr",
           "values": [
-            19,
             20,
             20,
             20,
             21
           ],
-          "note": "Ab 2022 wird gemeinsam mit Lehnheim geübt. Die Jahreswerte beider Berichte werden nicht addiert; 2022 nennen die Berichte 20 bzw. 21 Termine. 2021 und Anfang 2022 war der Betrieb pandemiebedingt eingeschränkt.",
-          "source": "Wehrführerberichte: 2021 S. 2; 2022–2025 S. 4"
+          "note": "Seit 2022 gemeinsamer Übungsbetrieb. Die Statistik Stangenrod nennt 2022 20 Termine, die Statistik Lehnheim 21. Werte werden unverändert wiedergegeben und nicht addiert.",
+          "source": "Statistik der Feuerwehr Stangenrod"
         },
         "attendance": {
-          "label": "Berichteter Teilnehmerdurchschnitt",
+          "label": "Durchschnittliche Übungsbeteiligung",
           "unit": "Ø Personen je Übung",
           "values": [
-            10.6,
             8.4,
             9.2,
             7.7,
             6.2
           ],
-          "note": "2023–2025 bezeichnet der Bericht ausdrücklich die Teilnehmenden aus Stangenrod. Der Rückgang auf 6,2 im Jahr 2025 zeigt, weshalb eine tragfähige gemeinsame Struktur wichtig ist. Keine Addition mit den Lehnheimer Durchschnittswerten.",
-          "source": "Wehrführerberichte: 2021 S. 2; 2022–2025 S. 4"
+          "note": "Werte der Statistik Stangenrod; 2023–2025 ausdrücklich Teilnehmende aus Stangenrod. Keine Addition mit Lehnheim.",
+          "source": "Statistik der Feuerwehr Stangenrod"
         },
         "alarms": {
-          "label": "Alarmierungen laut Jahresbericht",
-          "unit": "Berichtete Anzahl",
+          "label": "Alarmierungen",
+          "unit": "Alarmierungen im Kalenderjahr",
           "values": [
-            4,
             8,
             11,
             9,
             9
           ],
-          "note": "Unverändert berichtete Zahlen. 2021 kam eine überörtliche Unterstützung im Ahrtal hinzu; sie ist hier separat zu verstehen. Im Bericht 2024 werden auch zwei Baum-Einsätze „aus dieser Woche“ erwähnt; die zeitliche Abgrenzung ist daher nicht vollständig eindeutig. Gemeinsame Einsätze nicht mit Lehnheim addieren.",
-          "source": "Wehrführerberichte: 2021 S. 2; 2022/2023 S. 3; 2024 S. 3–4; 2025 S. 3"
+          "note": "Alarmierungen laut Statistik Stangenrod. Die zeitliche Abgrenzung 2024 ist nicht vollständig eindeutig, weil auch zwei Baum-Einsätze aus der Woche der Zusammenstellung erwähnt werden. Gemeinsame Ereignisse nicht mit Lehnheim addieren.",
+          "source": "Statistik der Feuerwehr Stangenrod"
         }
       },
       "additional": [],
-      "source": "Stangenrod: Wehrführerberichte 2021–2025. Personal, Übungen und Beteiligung: 2021 S. 2, 2022–2025 S. 4. Alarmierungen: siehe Zuordnung in der Tabelle. Die Formulierungen und zeitlichen Einschränkungen der Berichte bleiben erkennbar.",
-      "note": "Die gemeinsame Ausbildung beginnt 2022. Die Beteiligung aus Stangenrod wird für 2023–2025 ausdrücklich getrennt ausgewiesen."
+      "source": "Statistik der Feuerwehr Stangenrod · 2022–2025.",
+      "note": "Gemeinsamer Übungsbetrieb seit 2022. Kennzahlen beider Ortswehren werden getrennt dargestellt und nicht addiert."
     },
     "mitte": {
       "label": "Löschzug Mitte",
       "status": "complete",
-      "period": "Stand 26. Oktober 2026",
+      "period": "Oktober 2026",
       "years": [
         "10/2026"
       ],
-      "referenceDate": "2026-10-26",
+      "referenceDate": "2026-10-27",
       "metrics": {
         "active": {
           "label": "Aktive",
@@ -304,40 +145,77 @@ window.FDZ_DATA = {
           "values": [
             43
           ],
-          "note": "43 eindeutige Personen im bereitgestellten Personalexport; Zugehörigkeit zum LZ Mitte durch die Wehrführung bestätigt.",
-          "source": "Personal Oktober 2026.csv; Bestätigung 26.10.2026"
+          "note": "Zugehörigkeit aller 43 Aktiven zum LZ Mitte durch die Wehrführung bestätigt.",
+          "source": "Statistik des LZ Mitte"
         },
-        "reports": {
-          "label": "Erfasste Einsatz- und Dienstleistungsberichte",
-          "unit": "Datensätze im Export",
+        "groupLeaders": {
+          "label": "Gruppenführer",
+          "unit": "Qualifizierte Personen · 27.10.2026",
           "values": [
-            16
+            14
           ],
-          "note": "6 Brand-, 7 Hilfeleistungs-, 1 Fehlalarm- und 2 Dienstleistungsberichte. Haupt- und Nebenberichte gehören zum Export. Ein Hilfeleistungsbericht ist mit 01.01.2026, 00:00 Uhr datiert; dieser Eintrag ist noch zu prüfen. Deshalb keine Aussage über eine abschließend bereinigte Einsatzjahresbilanz.",
-          "source": "Einsätze 2026.csv, 16 Datenzeilen"
+          "note": "Enthält alle fünf Zugführer. Keine Addition der beiden Qualifikationszahlen.",
+          "source": "Statistik des LZ Mitte"
         },
-        "hours": {
-          "label": "Erfasste Personenstunden",
-          "unit": "Stunden · 01.01.–26.10.2026",
+        "platoonLeaders": {
+          "label": "Davon Zugführer",
+          "unit": "Qualifizierte Personen · 27.10.2026",
           "values": [
-            813.1833333333333
+            5
           ],
-          "note": "Summe der erfassten Anwesenheitsstunden, einschließlich Tätigkeiten dieser Personen in anderen Einheiten. Keine reine Standortbilanz und keine vollständige Erfassung aller ehrenamtlichen Arbeit. Entschuldigte Abwesenheit (6,5 Stunden) ist nicht enthalten.",
-          "source": "Stundennachweis.xlsx, Statistik-Std., V12; Abgleich mit Gesamt-Liste"
+          "note": "Teilmenge der 14 Gruppenführer; keine zusätzliche Personengruppe.",
+          "source": "Statistik des LZ Mitte"
         },
-        "trainingHours": {
-          "label": "Davon Lehrgang / Seminar",
-          "unit": "Personenstunden",
+        "youth": {
+          "label": "Mitglieder der Jugendfeuerwehr",
+          "unit": "Personen · 27.10.2026",
           "values": [
-            256.5
+            21
           ],
-          "note": "Teilmenge der erfassten Gesamtstunden. Kein Bestand unterschiedlicher Qualifikationen und keine Anzahl unterschiedlicher Personen.",
-          "source": "Stundennachweis.xlsx, Statistik-Std., J12"
+          "note": "Fünf mehr als vor dem Zusammenschluss (damals 16). Angaben der Wehrführung.",
+          "source": "Statistik des LZ Mitte"
+        },
+        "children": {
+          "label": "Mitglieder der Minifeuerwehr",
+          "unit": "Personen · 27.10.2026",
+          "values": [
+            21
+          ],
+          "note": "Minifeuerwehr gegründet am 23.08.2026. Angaben der Wehrführung.",
+          "source": "Statistik des LZ Mitte"
+        },
+        "alarms": {
+          "label": "Alarmierungen",
+          "unit": "Eindeutig datierte Ereignisse · bis 26.10.2026",
+          "values": [
+            13
+          ],
+          "note": "6 Brand, 6 Hilfeleistung, 1 Fehlalarm; 13 unterschiedliche Leitstellennummern. Zwei Dienstleistungen und ein Hilfeleistungseintrag mit unklarem Datum bleiben außen vor.",
+          "source": "Statistik des LZ Mitte"
         }
       },
-      "additional": [],
-      "source": "Stand 26.10.2026: Personal Oktober 2026.csv; Einsätze 2026.csv; Stundennachweis.xlsx, Statistik-Std., Zeile 12. Der Stundenexport ist auf „Alle Stunden der Person (keine Filterung)“ eingestellt und enthält auch Tätigkeiten in anderen Organisationen. Keine Namen, Geburtsdaten, Personalnummern oder Einsatzadressen werden veröffentlicht.",
-      "note": "2026 ist ein Zwischenstand. Tätigkeitszahlen werden nicht mit abgeschlossenen Kalenderjahren gleichgesetzt. Aus dem vorliegenden Stundenexport lässt sich noch keine vollständige Zahl der gemeinsamen Übungstermine ableiten."
+      "additional": [
+        {
+          "label": "Dienstleistungen",
+          "unit": "Ereignisse · bis 26.10.2026",
+          "values": [
+            2
+          ],
+          "note": "Separat von Alarmierungen ausgewiesen.",
+          "source": "Statistik des LZ Mitte"
+        },
+        {
+          "label": "Zeitlich unklarer Hilfeleistungseintrag",
+          "unit": "Eintrag",
+          "values": [
+            1
+          ],
+          "note": "Mit 01.01.2026, 00:00 Uhr erfasst; vor Zuordnung zum Berichtszeitraum zu prüfen.",
+          "source": "Statistik des LZ Mitte"
+        }
+      ],
+      "source": "Statistik des LZ Mitte · 26.10.2026; Führungsqualifikationen und Nachwuchszahlen bestätigt durch die Wehrführung am 27.10.2026.",
+      "note": "Aktueller Stand im Oktober 2026. Die 13 Alarmierungen umfassen eindeutig datierte Ereignisse bis zum 26.10.2026; zwei Dienstleistungen und ein zeitlich unklarer Hilfeleistungseintrag sind separat erfasst."
     },
     "gesamt": {
       "label": "Beide Wehren / LZ Mitte",
@@ -361,76 +239,21 @@ window.FDZ_DATA = {
             43,
             43
           ],
-          "note": "2022–2025: Summe der beiden Einsatzabteilungen (25+17, 25+20, 24+17, 26+17). Oktober 2026: 43 Aktive im Personalexport; Zugehörigkeit aller 43 zum LZ Mitte am 26.10.2026 durch die Wehrführung bestätigt. Die Struktur wurde zusammengeführt; ein Mitgliederzuwachs durch den Zusammenschluss lässt sich aus diesen Ständen nicht ableiten.",
-          "source": "Personalberichte Lehnheim und Stangenrod; Personalexport Oktober 2026, Bestätigung der Wehrführung vom 26.10.2026"
+          "note": "2022–2025: Summe der Personalstände beider Einsatzabteilungen zum Jahresende (25+17, 25+20, 24+17, 26+17). Oktober 2026: 43 Aktive im LZ Mitte, bestätigt durch die Wehrführung. Die Zahlen zeigen die gemeinsame Personalbasis.",
+          "source": "Statistiken der Feuerwehren Lehnheim und Stangenrod; Statistik des LZ Mitte."
         }
       },
       "additional": [],
-      "source": "Jahresendstände aus den Personalberichten Lehnheim und Wehrführerberichten Stangenrod 2022–2025. Oktober 2026: Personal Oktober 2026.csv, 43 eindeutige Personalnummern. Zwei abweichende Organisationszuordnungen wurden durch die Wehrführung als zur Mannschaft gehörend bestätigt. Es werden ausschließlich Summen veröffentlicht.",
+      "source": "Statistiken der Feuerwehren Lehnheim und Stangenrod; Statistik des LZ Mitte.",
       "note": "Die Zahlen dokumentieren die Personalbasis, nicht die gleichzeitige Verfügbarkeit oder einzelne Qualifikationen."
     }
   },
-  "additional": [
-    {
-      "label": "Durchschnittsalter zum Jahresende",
-      "values": [
-        36,
-        36,
-        38,
-        36
-      ],
-      "unit": "Jahre",
-      "source": "Personelles"
-    },
-    {
-      "label": "Atemschutzgeräteträger laut Bericht",
-      "values": [
-        10,
-        13,
-        11,
-        13
-      ],
-      "source": "Ausbildung",
-      "note": "Abweichende Stichtage beachten."
-    },
-    {
-      "label": "Atemschutz: Status Grün laut Bericht",
-      "values": [
-        10,
-        11,
-        11,
-        11
-      ],
-      "source": "Ausbildung",
-      "note": "2022 und 2023 jeweils 31.12.; 2024 zum Berichtsdatum 25.01.2025; 2025 ohne ausdrücklich genannten Status-Stichtag."
-    },
-    {
-      "label": "Jugendfeuerwehr zum Jahresende",
-      "values": [
-        null,
-        9,
-        null,
-        null
-      ],
-      "source": "Jugendbericht 2023/24",
-      "note": "Bericht beschreibt das Kalenderjahr 2023. Anfang 2023: 5 Mitglieder; Ende 2023: 9. Nicht auf andere Jahre übertragen."
-    },
-    {
-      "label": "Jugendtermine einschließlich Ausflügen",
-      "values": [
-        null,
-        30,
-        null,
-        null
-      ],
-      "source": "Jugendbericht 2023/24",
-      "note": "Kalenderjahr 2023; keine reine Übungszahl."
-    }
-  ],
   "currentBreakdown": {
     "brand": 6,
-    "hilfeleistung": 7,
+    "hilfeleistung": 6,
     "fehlalarm": 1,
-    "dienstleistung": 2
-  }
+    "dienstleistung": 2,
+    "zeitlichUnklar": 1
+  },
+  "comparisonPolicy": "Historische Ansichten: gleiche vier Kennzahlen und gleiche Jahre 2022–2025; Werte unverändert, gemeinsame Termine und Ereignisse nicht addieren."
 };

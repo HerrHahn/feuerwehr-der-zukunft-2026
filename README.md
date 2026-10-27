@@ -1,54 +1,40 @@
 # Feuerwehr der Zukunft 2026
 
-Wettbewerbsbeitrag des Löschzugs Grünberg-Mitte: Zwei Wehren – ein Standort.
+Wettbewerbsbeitrag des Löschzugs Grünberg-Mitte: Zwei Wehren - ein Standort.
 
 [Website öffnen](https://herrhahn.github.io/feuerwehr-der-zukunft-2026/) · [GitHub-Projekt](https://github.com/HerrHahn/feuerwehr-der-zukunft-2026)
 
-Die Website erzählt das Zusammenwachsen von Lehnheim und Stangenrod, den Neubau des gemeinsamen Feuerwehrhauses und das Festwochenende vom 21. bis 23. August 2026. Sie enthält Fotogalerien, die verlinkte Videochronik und den Bauzeitraffer, belegte Zitate von Stephan Hahn sowie aggregierte Daten beider Ortswehren und den aktuellen Stand des LZ Mitte.
+## Inhalt und Nutzung
 
-## Datenstand
+Die Ergebnisbilanz und der Abgleich mit den Antragszielen stehen vor der Projektgeschichte. Es folgen Ausgangslage, Beteiligung und Zusammenschluss, gemeinsames Feuerwehrhaus, Statistiken, Festwochenende, Nachwuchs und Erfahrungen für andere Feuerwehren. Logos, Fotogalerien, Chronikfilme und Bauzeitraffer ergänzen die Darstellung.
 
-26. Oktober 2026. Ausgewertet sind Lehnheim 2022–2025, Stangenrod 2021–2025 und die Oktober-Exporte des LZ Mitte. Die Zugehörigkeit aller 43 Personen aus dem Personalexport wurde durch die Wehrführung bestätigt. 2026 bleibt als Zwischenstand gekennzeichnet. Fehlende Daten werden nicht als Nullwerte dargestellt.
+Die Website ist statisch, benötigt keinen Build und keine externen Bibliotheken. GitHub Pages veröffentlicht den Branch main mit dem Stammverzeichnis /. Präsentieren öffnet 13 Kapitel; Pfeiltasten blättern, Escape beendet die Ansicht. Die Druckfunktion zeigt zusätzlich die Datentabellen aller Einheiten. YouTube-Videos werden als Links geöffnet.
 
-Die gemeinsame Personalreihe ist 42 / 45 / 41 / 43 Aktive zum Jahresende 2022–2025 und 43 Aktive im Oktober 2026. Einsatz- und Übungszahlen werden nicht über beide Wehren addiert. Der Export enthält 16 Einsatz-/Dienstleistungsberichte; ein Hilfeleistungsbericht mit Datum 01.01.2026, 00:00 Uhr muss vor einer bereinigten Jahresbilanz geprüft werden. Die 813,2 erfassten Personenstunden schließen Tätigkeiten in anderen Einheiten ein, nicht jedoch 6,5 Stunden entschuldigte Abwesenheit.
+## Statistiken und Quellen
 
-Die Lehnheimer Berichte liegen bereits in der Phase gemeinsamer Ausbildung. Sie sind keine unbeeinflusste Ausgangsreihe vor der Zusammenarbeit. Gemeinsame Übungen und Alarmierungen dürfen beim Vergleich der Daten nicht doppelt gezählt werden. Lehrgangsbelegungen sind keine Personen- oder Qualifikationsbestände. Die Bezugsgruppe der Übungsbeteiligung ist vor dem gemeinsamen Vergleich zu bestätigen.
+Dokumentationsstand 27. Oktober 2026. Beide historischen Ansichten enthalten ausschließlich dieselben vier Kennzahlen für 2022–2025: Aktive, Übungen, durchschnittliche Übungsbeteiligung und Alarmierungen. Bezeichnungen, Einheiten und Quellenbezeichnungen sind einheitlich. Gemeinsame Termine und Ereignisse werden nicht addiert. Die ursprünglichen Zahlen bleiben unverändert; Abgrenzungen stehen bei den Werten.
+
+Quellen: Statistik der Feuerwehr Lehnheim, Statistik der Feuerwehr Stangenrod und Statistik des LZ Mitte. Die gemeinsame Personalreihe lautet 42 / 45 / 41 / 43 zum Jahresende 2022–2025 sowie 43 im Oktober 2026.
+
+Bestätigte Ergänzungen der Wehrführung vom 27.10.2026: 14 Gruppenführer einschließlich 5 Zugführern; Jugendfeuerwehr 21 Mitglieder (vor dem Zusammenschluss 16); Minifeuerwehr 21 Kinder. Die Qualifikationen werden nicht addiert und sind keine gleichzeitige Verfügbarkeit. Die Angaben zu öffentlicher Wahrnehmung und Zuspruch bei Erwachsenen sind als Einschätzung der Wehrführung gekennzeichnet.
+
+Für 2026 sind 13 eindeutig datierte Alarmereignisse bis zum 26.10.2026 erfasst, mit 13 verschiedenen Leitstellennummern: 6 Brand, 6 Hilfeleistung, 1 Fehlalarm. Zwei Dienstleistungen und ein Hilfeleistungseintrag mit unklarem Datum bleiben separat. Die 2025er Angaben von je neun Alarmierungen werden nicht addiert; zusätzliche Tätigkeiten während der Marktbereitschaft und unterschiedliche Berichtszeiträume sind im Vergleich erläutert.
+
+Es werden ausschließlich öffentliche Aggregate verwendet. Keine Personaldateien, individuellen Leistungsdaten, Geburtsdaten, Einsatzadressen oder privaten Kontaktdaten werden veröffentlicht.
 
 ## Dateien
 
-- `index.html`: Inhalte, Projektverlauf und Quellenhinweise.
-- `styles.css`: Darstellung auf Rechner und Smartphone sowie Druckansicht.
-- `app.js`: Fotogalerien, Datenansicht, Navigation und Präsentationsmodus.
-- `statistics.js`: die auf der Website verwendeten Kennzahlen, Quellen und Abgrenzungen.
-- `projekt-daten.json`: aktuelle aggregierte Auswertung aller Einheiten mit Quellen und Einschränkungen.
-- `lehnheim-daten.json`: ausführliche aggregierte Auswertung mit Quellen und Einschränkungen.
-- `foto-*.webp`: für die Website verkleinerte Kopien der bereitgestellten Fotos. Die Originaldateien werden nicht mit veröffentlicht.
+- index.html, styles.css und app.js: Inhalte, Darstellung, Galerien und Präsentationsmodus.
+- statistics.js und projekt-daten.json: dieselben öffentlichen Aggregate, Quellen und Abgrenzungen.
+- lehnheim-daten.json: unter dem bisherigen Dateinamen nur noch die vier gemeinsamen historischen Kennzahlen.
+- leitfaden-zusammenwachsen.pdf: vier Arbeitsblätter für andere Feuerwehren.
+- leitfaden-vorlagen.txt: dieselben Inhalte als bearbeitbare Textvorlage.
+- foto-*.webp und swg-logo.svg: bereitgestellte Bilder und Logos.
 
-Es werden keine Personalberichte, Mitgliederlisten, individuellen Leistungsdaten oder privaten Kontaktdaten veröffentlicht. Foto- und Textrechte verbleiben bei den jeweiligen Rechteinhabern; es wird keine allgemeine Nutzungslizenz erteilt.
+Der Leitfaden enthält aus Projekterfahrungen abgeleitete Empfehlungen für Beteiligung, gemeinsame Ausbildung, Standortwahl und öffentlichen Abschluss. Die Vorlagen sind keine historischen Protokolle. Foto- und Textrechte verbleiben bei den Rechteinhabern; es wird keine allgemeine Nutzungslizenz erteilt.
 
-## Nutzung
+## Rückmeldungen
 
-Die Website ist statisch und benötigt keinen Build und keine externen Bibliotheken. In GitHub Pages wird der Branch `main` mit dem Stammverzeichnis `/` veröffentlicht.
+Das bestehende Formular speichert Vorschläge mit Namen und Datum auf dem Formularserver. Der TXT-Download enthält die gespeicherten Rückmeldungen. Die Website bleibt auf GitHub Pages; der Formularserver liegt bei Sites/Cloudflare mit dauerhafter D1-Datenbank. Die Daten werden nicht an eine KI zur Auswertung oder als Agentenkontext übermittelt.
 
-Der Button „Präsentieren“ öffnet elf Kapitel, die mit Pfeiltasten bedient werden. Escape beendet die Ansicht. „Bericht drucken / als PDF sichern“ öffnet die Druckfunktion des Browsers und blendet die Quellen und Datentabellen aller Einheiten ein. Die Videos werden als YouTube-Links geöffnet und nicht automatisch eingebettet.
-
-Für eine lokale Vorschau kann ein beliebiger statischer Webserver in diesem Ordner gestartet werden.
-
-## Verbesserungsvorschläge
-
-Am Seitenende öffnet „Verbesserungsvorschlag einreichen“ ein Formular direkt auf der Website. Name und Vorschlag werden ohne Benutzerkonto zentral in einer Datenbank gespeichert. Erst nach bestätigter Speicherung erscheint die Erfolgsmeldung; bei Fehlern bleibt die Eingabe erhalten. Wiederholte Übertragungen derselben Einreichung erzeugen keinen zweiten Eintrag.
-
-„Sammlung als Textdatei herunterladen“ liefert jederzeit alle gespeicherten Rückmeldungen mit Namen und Datum als UTF-8-Textdatei. Namen und Vorschläge sind darin öffentlich sichtbar; darauf weist das Formular vor dem Absenden hin.
-
-Die Website liegt weiterhin auf GitHub Pages. Die Speicherung und der TXT-Export laufen über einen eigenen Formularserver bei Sites/Cloudflare mit dauerhafter D1-Datenbank. Es gibt keine KI-Auswertung, keinen Agentenlauf und keine Übermittlung der Vorschläge als KI-Kontext. Tests verwenden ausschließlich erfundene Angaben.
-
-- `feedback.js`: Formular, Übertragung und Erfolg-/Fehlerrückmeldung.
-- Formularserver: https://feuerwehr-zukunft-rueckmeldungen.dregen667.chatgpt.site
-- Quellcode des Formularservers: im Projektordner `Feuerwehr der Zukunft/Rueckmeldungen-Server`.
-- Betriebsprüfung ohne Rückmeldungsinhalte: `/api/health`.
-
-Für die Umsetzung späterer Rückmeldungen separat freigegebene Aufgaben verwenden.
-
-## Bild- und Inhaltsüberarbeitung vom 26. Oktober 2026
-
-Header mit SWG und LZ-Mitte-Logo, getrennte Ansichten der bisherigen Standorte aus Rogers Aufnahmen, zusätzliche Planungsansichten und Grundriss, ergänztes Nachwuchsfoto sowie korrigierte Bildunterschrift für den Gesangverein Concordia Stangenrod. Standortwahl, externe Moderation, Ergebnisse und übertragbare Erfahrungen werden als eigene Inhalte sichtbar. Die Rückmeldungsdaten wurden für diese Überarbeitung weder abgerufen noch ausgewertet.
+Verbesserungsvorschläge und enthaltene Namen dürfen nicht eingelesen werden. Tests ausschließlich mit erfundenen Angaben. Für die Umsetzung späterer Rückmeldungen separat freigegebene Aufgaben verwenden. Die Rückmeldungsdaten wurden für diese Überarbeitung weder abgerufen noch ausgewertet. Siehe AGENTS.md.
