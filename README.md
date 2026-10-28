@@ -39,3 +39,13 @@ Der Leitfaden enthält aus Projekterfahrungen abgeleitete Empfehlungen für Bete
 Das bestehende Formular speichert Vorschläge mit Namen und Datum auf dem Formularserver. Der TXT-Download enthält die gespeicherten Rückmeldungen. Die Website bleibt auf GitHub Pages; der Formularserver liegt bei Sites/Cloudflare mit dauerhafter D1-Datenbank. Die Daten werden nicht an eine KI zur Auswertung oder als Agentenkontext übermittelt.
 
 Verbesserungsvorschläge und enthaltene Namen dürfen nicht eingelesen werden. Tests ausschließlich mit erfundenen Angaben. Für die Umsetzung späterer Rückmeldungen separat freigegebene Aufgaben verwenden. Die Rückmeldungsdaten wurden für diese Überarbeitung weder abgerufen noch ausgewertet. Siehe AGENTS.md.
+
+
+
+### Rechtliche Angaben und geschützter Rückmeldezugriff, 28.10.2026
+
+- Anbieter und Datenschutzverantwortlicher: Stephan Hahn, vom Nutzer bestätigt.
+- `impressum.html` und `datenschutz.html`: endgültige Rechtstexte, im Fußbereich und am Formular verlinkt; Gestaltung in `legal.css`.
+- Rückmeldungen: zentrale Speicherung beim bestehenden Formularserver, keine KI-Auswertung. Nur der Projektverantwortliche darf die Sammlung mit dem geheimen Servercode abrufen.
+- Nach Abschluss der Überarbeitung löscht die ausdrückliche Abschlussfunktion die Beiträge aus der Anwendungsdatenbank und schließt die Sammlung. Eigene Downloads werden vom Projektverantwortlichen gelöscht; Hosting-Sicherungen sind davon getrennt.
+- Neue Hinweistexte und Downloadlink nur zusammen mit der entsprechenden veröffentlichten Serverversion verwenden.

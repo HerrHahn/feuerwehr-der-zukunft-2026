@@ -57,7 +57,7 @@
       form.reset();
       submissionId = null;
       previousPayload = '';
-      setStatus('Danke! Dein Vorschlag ist gespeichert und in der Textsammlung enthalten.', true);
+      setStatus('Danke! Dein Vorschlag ist für den Projektverantwortlichen gespeichert.', true);
     } catch (error) {
       setStatus(error.name === 'AbortError' || error instanceof TypeError
         ? 'Die Speicherung konnte nicht bestätigt werden. Deine Eingabe bleibt erhalten. Bitte versuche es erneut; derselbe Vorschlag wird nur einmal gespeichert.'
