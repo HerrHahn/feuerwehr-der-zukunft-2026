@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-29",
   "units": {
     "lehnheim": {
       "label": "Lehnheim",
@@ -59,6 +59,18 @@
             9
           ],
           "note": "Alarmierungen laut Statistik Lehnheim. Veranstaltungsabsicherungen sind nicht enthalten. Für 2025 sind weitere Tätigkeiten während der Marktbereitschaft beschrieben, die nicht zu den neun Alarmierungen addiert werden."
+        },
+        "courses": {
+          "label": "Lehrgangs- und Seminarteilnahmen",
+          "unit": "Teilnahmen im Kalenderjahr",
+          "source": "Statistik der Feuerwehr Lehnheim",
+          "values": [
+            24,
+            47,
+            33,
+            37
+          ],
+          "note": "Dokumentierte Teilnahmen an Lehrgängen, Seminaren und gesonderten Ausbildungen; eine Person kann mehrfach zählen. Reguläre Übungen und jährliche Atemschutzpflichtübungen zählen nicht dazu. Übernommene Jahressummen; 2022: 15 Seminar-/Ausbildungsplätze und 9 Lehrgangsplätze."
         }
       },
       "additional": [],
@@ -123,6 +135,18 @@
           ],
           "note": "Alarmierungen laut Statistik Stangenrod. Die zeitliche Abgrenzung 2024 ist nicht vollständig eindeutig, weil auch zwei Baum-Einsätze aus der Woche der Zusammenstellung erwähnt werden. Gemeinsame Ereignisse nicht mit Lehnheim addieren.",
           "source": "Statistik der Feuerwehr Stangenrod"
+        },
+        "courses": {
+          "label": "Lehrgangs- und Seminarteilnahmen",
+          "unit": "Teilnahmen im Kalenderjahr",
+          "source": "Statistik der Feuerwehr Stangenrod",
+          "values": [
+            8,
+            8,
+            8,
+            6
+          ],
+          "note": "Dokumentierte Teilnahmen an Lehrgängen, Seminaren und gesonderten Ausbildungen; eine Person kann mehrfach zählen. Reguläre Übungen und jährliche Atemschutzpflichtübungen zählen nicht dazu. 2022: 6 Lehrgangsteilnahmen und 2 Teilnahmen Elektrofahrzeuge; 2023: 8 Lehrgangs-/Seminarteilnahmen; 2024: 6 Lehrgangsteilnahmen und 2 Teilnahmen Fire Dragon (Webinar und Praxis zusammen je eine Teilnahme); 2025: 6 Lehrgangs-/Modulteilnahmen. LKW-Führerscheine sind nicht enthalten. Weitere Sonderausbildungen ohne Teilnehmerzahl werden nicht geschätzt; damit dokumentierter Mindeststand."
         }
       },
       "additional": [],
@@ -136,7 +160,7 @@
       "years": [
         "10/2026"
       ],
-      "referenceDate": "2026-10-27",
+      "referenceDate": "2026-10-29",
       "metrics": {
         "active": {
           "label": "Aktive",
@@ -149,18 +173,18 @@
         },
         "groupLeaders": {
           "label": "Gruppenführer",
-          "unit": "Qualifizierte Personen · 27.10.2026",
+          "unit": "Qualifizierte Personen · 29.10.2026",
           "values": [
             14
           ],
-          "note": "Enthält alle fünf Zugführer. Keine Addition der beiden Qualifikationszahlen.",
+          "note": "Enthält alle sechs Zugführer. Keine Addition der beiden Qualifikationszahlen.",
           "source": "Statistik des LZ Mitte"
         },
         "platoonLeaders": {
           "label": "Davon Zugführer",
-          "unit": "Qualifizierte Personen · 27.10.2026",
+          "unit": "Qualifizierte Personen · 29.10.2026",
           "values": [
-            5
+            6
           ],
           "note": "Teilmenge der 14 Gruppenführer; keine zusätzliche Personengruppe.",
           "source": "Statistik des LZ Mitte"
@@ -176,9 +200,9 @@
         },
         "children": {
           "label": "Mitglieder der Minifeuerwehr",
-          "unit": "Personen · 27.10.2026",
+          "unit": "Personen · 29.10.2026",
           "values": [
-            21
+            18
           ],
           "note": "Minifeuerwehr gegründet am 23.08.2026. Angaben der Wehrführung.",
           "source": "Statistik des LZ Mitte"
@@ -191,6 +215,51 @@
           ],
           "note": "6 Brand, 6 Hilfeleistung, 1 Fehlalarm; 13 unterschiedliche Leitstellennummern. Zwei Dienstleistungen und ein Hilfeleistungseintrag mit unklarem Datum bleiben außen vor.",
           "source": "Statistik des LZ Mitte"
+        },
+        "respiratory": {
+          "label": "Atemschutzgeräteträger",
+          "unit": "Ausgebildete Personen · 29.10.2026",
+          "values": [
+            20
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "Bestand durch die Wehrführung bestätigt. Davon 16 aktuell tauglich; Tauglichkeit ist keine gleichzeitige Verfügbarkeit."
+        },
+        "respiratoryFit": {
+          "label": "Davon aktuell tauglich",
+          "unit": "Personen · 29.10.2026",
+          "values": [
+            16
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "Teilmenge der 20 Atemschutzgeräteträger. Keine Addition der beiden Zahlen."
+        },
+        "exercises": {
+          "label": "Übungen",
+          "unit": "Dokumentierte Termine · Teilstand 2026",
+          "values": [
+            2
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "Erfasst sind zwei eigene Übungen: 27.02.2026 und 22.04.2026. Keine vollständige Jahreszahl. Teilnahmen an Veranstaltungen anderer Einheiten werden nicht als eigene Übungen gezählt."
+        },
+        "attendance": {
+          "label": "Durchschnittliche Übungsbeteiligung",
+          "unit": "Ø Personen je Übung · Teilstand 2026",
+          "values": [
+            22
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "(24 + 20) / 2 = 22 Teilnehmende je dokumentierter eigener Übung. Nur die beiden Termine vom 27.02. und 22.04.2026; kein vollständiger Jahresdurchschnitt und keine direkte Wachstumsquote gegenüber den Ortswehren."
+        },
+        "courses": {
+          "label": "Lehrgangs- und Seminarteilnahmen",
+          "unit": "Teilnahmen · 2026",
+          "values": [
+            null
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "Für 2026 liegt keine gesicherte Gesamtzahl vor. Fehlender Wert bedeutet nicht null; Übungs- und Dienstbuchtermine werden nicht in Lehrgänge umgedeutet."
         }
       },
       "additional": [
@@ -211,10 +280,28 @@
           ],
           "note": "Mit 01.01.2026, 00:00 Uhr erfasst; vor Zuordnung zum Berichtszeitraum zu prüfen.",
           "source": "Statistik des LZ Mitte"
+        },
+        {
+          "label": "Teilnahmen an dokumentierten Übungen",
+          "unit": "Personenteilnahmen · Teilstand 2026",
+          "values": [
+            44
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "24 Teilnehmende am 27.02.2026 und 20 am 22.04.2026. Personen können an beiden Terminen vorkommen."
+        },
+        {
+          "label": "Stunden bei dokumentierten Übungen",
+          "unit": "Personenstunden · Teilstand 2026",
+          "values": [
+            110
+          ],
+          "source": "Statistik des LZ Mitte",
+          "note": "Beide dokumentierten eigenen Übungen dauerten je 2,5 Stunden: 24 × 2,5 + 20 × 2,5 = 110. Keine vollständige Jahresstundensumme."
         }
       ],
-      "source": "Statistik des LZ Mitte · 26.10.2026; Führungsqualifikationen und Nachwuchszahlen bestätigt durch die Wehrführung am 27.10.2026.",
-      "note": "Aktueller Stand im Oktober 2026. Die 13 Alarmierungen umfassen eindeutig datierte Ereignisse bis zum 26.10.2026; zwei Dienstleistungen und ein zeitlich unklarer Hilfeleistungseintrag sind separat erfasst."
+      "source": "Statistik des LZ Mitte · Stand 26.10.2026; bestätigte Ergänzungen der Wehrführung vom 27.–29.10.2026.",
+      "note": "Zwischenstand Oktober 2026: 43 Aktive; 14 Gruppenführer einschließlich 6 Zugführern; 20 Atemschutzgeräteträger, davon 16 tauglich. Die Übungszahlen beziehen sich ausschließlich auf zwei dokumentierte eigene Termine (24 und 20 Teilnehmende), nicht auf das vollständige Jahr. 13 eindeutig datierte Alarmierungen bis 26.10.2026; zwei Dienstleistungen und ein zeitlich unklarer Hilfeleistungseintrag separat."
     },
     "gesamt": {
       "label": "Beide Wehren / LZ Mitte",
@@ -254,5 +341,5 @@
     "dienstleistung": 2,
     "zeitlichUnklar": 1
   },
-  "comparisonPolicy": "Historische Ansichten: gleiche vier Kennzahlen und gleiche Jahre 2022–2025; Werte unverändert, gemeinsame Termine und Ereignisse nicht addieren."
+  "comparisonPolicy": "Historische Ansichten: gleiche fünf Kennzahlen und gleiche Jahre 2022–2025. Gemeinsame Termine und Ereignisse nicht addieren. Lehrgangs-/Seminarteilnahmen nach dokumentiertem Umfang; keine Rangfolge bei unterschiedlicher Vollständigkeit. LZ Mitte 2026 als Zwischenstand mit gesondert gekennzeichneten Übungsdaten."
 }

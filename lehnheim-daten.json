@@ -59,6 +59,18 @@
           9
         ],
         "note": "Alarmierungen laut Statistik Lehnheim. Veranstaltungsabsicherungen sind nicht enthalten. Für 2025 sind weitere Tätigkeiten während der Marktbereitschaft beschrieben, die nicht zu den neun Alarmierungen addiert werden."
+      },
+      "courses": {
+        "label": "Lehrgangs- und Seminarteilnahmen",
+        "unit": "Teilnahmen im Kalenderjahr",
+        "source": "Statistik der Feuerwehr Lehnheim",
+        "values": [
+          24,
+          47,
+          33,
+          37
+        ],
+        "note": "Dokumentierte Teilnahmen an Lehrgängen, Seminaren und gesonderten Ausbildungen; eine Person kann mehrfach zählen. Reguläre Übungen und jährliche Atemschutzpflichtübungen zählen nicht dazu. Übernommene Jahressummen; 2022: 15 Seminar-/Ausbildungsplätze und 9 Lehrgangsplätze."
       }
     },
     "additional": [],
