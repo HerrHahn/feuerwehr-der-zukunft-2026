@@ -12,9 +12,9 @@ Die Website ist statisch, benötigt keinen Build und keine externen Bibliotheken
 
 ## Statistiken und Quellen
 
-Dokumentationsstand 29. Oktober 2026. Beide historischen Ansichten enthalten ausschließlich dieselben fünf Kennzahlen für 2022–2025: Aktive, Übungen, durchschnittliche Übungsbeteiligung, Alarmierungen sowie Lehrgangs- und Seminarteilnahmen. Bezeichnungen, Einheiten und Quellenbezeichnungen sind einheitlich. Gemeinsame Termine und Ereignisse werden nicht addiert. Die ursprünglichen Zahlen bleiben unverändert; Abgrenzungen stehen bei den Werten.
+Dokumentationsstand 31. Oktober 2026. Beide historischen Ansichten enthalten ausschließlich dieselben fünf Kennzahlen für 2022–2025: Aktive, Übungen, durchschnittliche Übungsbeteiligung, Alarmierungen sowie Lehrgangs- und Seminarteilnahmen. Bezeichnungen, Einheiten und Quellenbezeichnungen sind einheitlich. Gemeinsame Termine und Ereignisse werden nicht addiert. Die ursprünglichen Zahlen bleiben unverändert; Abgrenzungen stehen bei den Werten.
 
-Quellen: Statistik der Feuerwehr Lehnheim, Statistik der Feuerwehr Stangenrod und Statistik des LZ Mitte. Die gemeinsame Personalreihe lautet 42 / 45 / 41 / 43 zum Jahresende 2022–2025 sowie 43 im Oktober 2026.
+Quellen: Statistik der Feuerwehr Lehnheim, Statistik der Feuerwehr Stangenrod und Statistik des LZ Mitte. Die gemeinsame Personalreihe lautet 42 / 45 / 41 / 43 zum Jahresende 2022–2025 sowie 46 im Oktober 2026.
 
 Bestätigte Ergänzungen der Wehrführung vom 27.–29.10.2026: 14 Gruppenführer einschließlich 6 Zugführern; Jugendfeuerwehr 21 Mitglieder (vor dem Zusammenschluss 16); Minifeuerwehr 18 Kinder. Die Qualifikationen werden nicht addiert und sind keine gleichzeitige Verfügbarkeit. Die Angaben zu öffentlicher Wahrnehmung und Zuspruch bei Erwachsenen sind als Einschätzung der Wehrführung gekennzeichnet.
 
@@ -27,7 +27,7 @@ Es werden ausschließlich öffentliche Aggregate verwendet. Keine Personaldateie
 - index.html, styles.css und app.js: Inhalte, Darstellung, Galerien und Präsentationsmodus.
 - statistics.js und projekt-daten.json: dieselben öffentlichen Aggregate, Quellen und Abgrenzungen.
 - lehnheim-daten.json: unter dem bisherigen Dateinamen nur noch die vier gemeinsamen historischen Kennzahlen.
-- projektdokumentation-jury-2026.pdf: zwölfseitige Abschlussdokumentation für die Jury, Stand 29.10.2026; Download im Einstieg und im Dokumentationsbereich.
+- projektdokumentation-jury-2026.pdf: zwölfseitige Abschlussdokumentation für die Jury, Stand 31.10.2026; Download im Einstieg und im Dokumentationsbereich.
 - leitfaden-zusammenwachsen.pdf: vier Arbeitsblätter für andere Feuerwehren.
 - leitfaden-vorlagen.txt: dieselben Inhalte als bearbeitbare Textvorlage.
 - foto-*.webp und swg-logo.svg: bereitgestellte Bilder und Logos.
@@ -55,3 +55,7 @@ Verbesserungsvorschläge und enthaltene Namen dürfen nicht eingelesen werden. T
 Die Rückmeldephase ist beendet; das Formular wurde entfernt und der Server weist neue Einreichungen mit HTTP 410 zurück. Bestehende Rückmeldungen bleiben geschützt bis zur Löschung durch den Projektverantwortlichen. Keine Rückmeldungssammlung wurde eingelesen.
 
 Korrigiert: 6 Zugführer innerhalb der 14 Gruppenführer, 18 Kinder in der Minifeuerwehr; 20 Atemschutzgeräteträger, davon 16 tauglich. Lehrgangs- und Seminarteilnahmen beider Wehren ergänzt. Die 2026er Übungsdaten enthalten nur zwei eigene Termine: 24 und 20 Teilnehmende, Mittelwert 22, 44 Personenteilnahmen und 110 Personenstunden. Der Teilstand ist ausdrücklich gekennzeichnet.
+
+### Korrektur Personalstand, 31.10.2026
+
+Die Wehrführung bestätigt aktuell 46 Aktive (Korrektur um drei Personen). Website, Präsentationsansicht, Statistik und Jury-PDF sind aktualisiert. Historische Personalstände 2022–2025 bleiben 42 / 45 / 41 / 43.

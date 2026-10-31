@@ -1,6 +1,6 @@
 /* Öffentliche Aggregate; einheitlicher historischer Vergleich. */
 window.FDZ_DATA = {
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "units": {
     "lehnheim": {
       "label": "Lehnheim",
@@ -161,15 +161,15 @@ window.FDZ_DATA = {
       "years": [
         "10/2026"
       ],
-      "referenceDate": "2026-10-29",
+      "referenceDate": "2026-10-31",
       "metrics": {
         "active": {
           "label": "Aktive",
-          "unit": "Personen · Oktober 2026",
+          "unit": "Personen · 31.10.2026",
           "values": [
-            43
+            46
           ],
-          "note": "Zugehörigkeit aller 43 Aktiven zum LZ Mitte durch die Wehrführung bestätigt.",
+          "note": "Aktueller Personalstand von 46 Aktiven durch die Wehrführung am 31.10.2026 bestätigt.",
           "source": "Statistik des LZ Mitte"
         },
         "groupLeaders": {
@@ -301,8 +301,8 @@ window.FDZ_DATA = {
           "note": "Beide dokumentierten eigenen Übungen dauerten je 2,5 Stunden: 24 × 2,5 + 20 × 2,5 = 110. Keine vollständige Jahresstundensumme."
         }
       ],
-      "source": "Statistik des LZ Mitte · Stand 26.10.2026; bestätigte Ergänzungen der Wehrführung vom 27.–29.10.2026.",
-      "note": "Zwischenstand Oktober 2026: 43 Aktive; 14 Gruppenführer einschließlich 6 Zugführern; 20 Atemschutzgeräteträger, davon 16 tauglich. Die Übungszahlen beziehen sich ausschließlich auf zwei dokumentierte eigene Termine (24 und 20 Teilnehmende), nicht auf das vollständige Jahr. 13 eindeutig datierte Alarmierungen bis 26.10.2026; zwei Dienstleistungen und ein zeitlich unklarer Hilfeleistungseintrag separat."
+      "source": "Statistik des LZ Mitte · Stand 26.10.2026; bestätigte Ergänzungen der Wehrführung vom 27.–31.10.2026.",
+      "note": "Zwischenstand Oktober 2026: 46 Aktive; 14 Gruppenführer einschließlich 6 Zugführern; 20 Atemschutzgeräteträger, davon 16 tauglich. Die Übungszahlen beziehen sich ausschließlich auf zwei dokumentierte eigene Termine (24 und 20 Teilnehmende), nicht auf das vollständige Jahr. 13 eindeutig datierte Alarmierungen bis 26.10.2026; zwei Dienstleistungen und ein zeitlich unklarer Hilfeleistungseintrag separat."
     },
     "gesamt": {
       "label": "Beide Wehren / LZ Mitte",
@@ -324,9 +324,9 @@ window.FDZ_DATA = {
             45,
             41,
             43,
-            43
+            46
           ],
-          "note": "2022–2025: Summe der Personalstände beider Einsatzabteilungen zum Jahresende (25+17, 25+20, 24+17, 26+17). Oktober 2026: 43 Aktive im LZ Mitte, bestätigt durch die Wehrführung. Die Zahlen zeigen die gemeinsame Personalbasis.",
+          "note": "2022–2025: Summe der Personalstände beider Einsatzabteilungen zum Jahresende (25+17, 25+20, 24+17, 26+17). Oktober 2026: 46 Aktive im LZ Mitte, bestätigt durch die Wehrführung am 31.10.2026. Die Zahlen zeigen die gemeinsame Personalbasis.",
           "source": "Statistiken der Feuerwehren Lehnheim und Stangenrod; Statistik des LZ Mitte."
         }
       },
